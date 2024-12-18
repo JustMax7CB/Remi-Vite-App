@@ -1,0 +1,58 @@
+.player-container.highlight {
+    outline: 3px solid rgb(6, 181, 6); /* Apply green outline when the player is highlighted */
+    border: 1px solid rgb(6, 181, 6); /* Apply green border when the player is highlighted */
+    box-shadow: 0 0 10px 5px rgba(0, 255, 0, 0.5); /* Blur effect with green glow */
+}
+
+.player-container {
+    background-color: #ffffffd8; /* Light gray background for players */
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+} 
+
+@media (min-width: 320px) {
+    .player-container {
+        width: 180px;
+        padding-bottom: 4px;
+    } 
+
+    h1.player_name {
+        font-size: 36px;
+        margin-top: 6px;
+    }
+
+}
+
+
+@media (min-width: 600px) {
+    .player-container {
+        width: 240px;
+        padding-bottom: 10px;
+    }
+    
+    
+    .player-container:hover {
+        background-color: #e2e0e0d8;
+        cursor: pointer;
+    }
+    
+    h1.player_name {
+        font-size: 44px;
+        margin-top: 10px;
+    }
+    
+    p.description {
+        font-size: 18px;
+    }
+    
+    p {
+        margin: 12px 0;
+    }
+    
+    img {
+        margin: 0 0.5px;
+    }
+    }
+    

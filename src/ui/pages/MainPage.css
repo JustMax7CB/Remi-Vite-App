@@ -1,0 +1,24 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 2px; /* Spacing between grid items */
+    padding: 8px; /* Padding around the grid */
+    margin-top: 36px;
+}
+
+  Button {
+    max-width: 210px;
+    min-width: 180px;
+    font-size: 20px !important;
+    margin: 40px 0 0 0;
+  }
