@@ -14,13 +14,17 @@
 
 @media (min-width: 320px) {
     .player-container {
-        width: 180px;
+        width: 135px;
         padding-bottom: 4px;
     } 
 
     h1.player_name {
-        font-size: 36px;
+        font-size: 28px;
         margin-top: 6px;
+    }
+
+    h3 {
+        font-size: 20px;
     }
 
 }
